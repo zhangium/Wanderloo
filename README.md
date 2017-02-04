@@ -8,5 +8,6 @@ This is a trail finder for the Kitchener Waterloo area. For EngHack2017
 4. Clear in Winter
 
 If we have time:
+
 5. Time
 6. Interactive hover over map
