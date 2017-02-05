@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Wanderloo</title>
+		<meta http-equiv="cache-control" content="max-age=0" />
+	   	<meta http-equiv="cache-control" content="no-cache" />
+	   	<meta http-equiv="expires" content="0" />
+	   	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	   	<meta http-equiv="pragma" content="no-cache" />
+	  	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<h1>Wanderloo</h1>
+		</div>
+		<!--<iframe src="http://www.eng.uwaterloo.ca/~rtcmok/map.html" height="300px" width="100%"></iframe>-->
+		<br><br>
+		<div class="box">
+		<br><br>
+		<div id="position"></div>
+		<br><br>
+		<div class="container">
+				<select name="trail_type" id="trail_type">
+	  				<!--<option value="0">No Preference</option>-->
+	  				<option value="1">Asphalt</option>
+	  				<option value="2">Stonedust</option>
+					<option value="3">Mulch</option>
+					<option value="4">Concrete</option>
+					<option value="5">Bridge</option>
+					<option value="6">Varies</option>
+					<option value="7">Geotime</option>
+				</select>
+				<br><br>
+				<input type="text" name="distance" id="distance" value="0">
+				<br><br>
+				<select name="on_bus_route" id="on_bus_route">
+	  				<option value="0">No Preference</option>
+	  				<option value="1">Yes</option>
+	  				<option value="2">No</option>
+	  			</select>
+	  			<br><br>
+	  			<select name="cleared_in_winter_by" id="cleared_in_winter_by">
+	  				<option value="0">No Preference</option>
+	  				<option value="1">Yes</option>
+	  				<option value="2">No</option>
+	  			</select>
+	  			<br><br><br>
+			<button onclick="submit_button()" id="btn">Run</button>
+			<!--<button onclick="getLocation()">Get Location</button>-->
+			<div class="loading" id="loading"></div>
+		</div>
+		<div class="prompts">
+			<h5>Surface:</h5>
+			<h5>Distance (m):</h5>
+			<h5>On Bus Route:</h5>
+			<h5>Cleared in Winter By:</h5>
+		</div>
+		</div>
+	</body>
+</html>
