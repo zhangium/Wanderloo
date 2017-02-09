@@ -1,4 +1,4 @@
-# kw-trail-finder
+# Wanderloo
 This is a trail finder for the Waterloo area. For EngHack2017
 
 # Overall Flow
