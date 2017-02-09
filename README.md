@@ -1,5 +1,5 @@
 # kw-trail-finder
-This is a trail finder for the Kitchener Waterloo area. For EngHack2017
+This is a trail finder for the Waterloo area. For EngHack2017
 
 # Overall Flow
 1. JS: Select settings in dropdown menu
